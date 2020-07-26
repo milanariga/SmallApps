@@ -11,5 +11,6 @@ public class SavingAcc extends Account {
     public SavingAcc(String name, String sSN, double initDeposit){
         super(name, sSN, initDeposit);
         System.out.println("New checking account");
+        System.out.println();
     }
 }

@@ -9,7 +9,7 @@ public class BankAccountApp {
 
         CheckingAcc chkacc1 = new CheckingAcc("Tom Doe", "232478327587", 1540);
 
-        SavingAcc savacc1 = new SavingAcc("Jane Black", "29834837538", 2000);
+        //SavingAcc savacc1 = new SavingAcc("Jane Black", "29834837538", 2000);
 
     }
 }
