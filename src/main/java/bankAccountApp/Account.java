@@ -2,14 +2,13 @@ package bankAccountApp;
 
 import org.apache.commons.lang3.StringUtils;
 
-import java.math.BigInteger;
 import java.util.HashMap;
 import java.util.Map;
 
 /**
  * @author Ana on 7/24/2020
  */
-public abstract class Account implements IntRate{
+public abstract class Account implements IntBaseRate {
 
     String name;
     String sSN;
@@ -25,16 +24,12 @@ public abstract class Account implements IntRate{
 
 
     public Account(String name, String sSN, double initDeposit){
-        this.name =name;
+        this.name = name;
         this.sSN = sSN;
         this.balance = initDeposit;
 
-        System.out.println("Name: " + name + "\nSSN: " + sSN + "\nBalance: " + initDeposit);
-
         index++;
         this.accountNumber = setAccountNumber();
-        System.out.print("New account: " + accountNumber);
-
     }
 
     private String setAccountNumber(){
@@ -117,6 +112,14 @@ public abstract class Account implements IntRate{
             resultNum = resultNum + letterToDigit.get(checkLetter);
         }
         return resultNum;
+    }
+
+    public void showInfo(){
+        System.out.println(
+                "Name: " + name +
+                "\nAccount number: " + accountNumber +
+                "\nBalance: " + balance
+        );
     }
 
 }
