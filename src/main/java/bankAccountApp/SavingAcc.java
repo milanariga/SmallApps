@@ -5,12 +5,17 @@ package bankAccountApp;
  */
 public class SavingAcc extends Account {
 
-    int safetyDepositBoxID;
-    int safetyDepositBoxKey;
+    private int safetyDepositBoxID;
+    private int safetyDepositBoxKey;
 
     public SavingAcc(String name, String sSN, double initDeposit){
         super(name, sSN, initDeposit);
         setSafetyDepositBox();
+    }
+
+    @Override
+    public void setRate() {
+        rate = getBaseRate() * .15;
     }
 
     private void setSafetyDepositBox(){

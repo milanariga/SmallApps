@@ -10,16 +10,16 @@ import java.util.Map;
  */
 public abstract class Account implements IntBaseRate {
 
-    String name;
-    String sSN;
-    String accountNumber;
-    double balance;
-    double rate;
+    private String name;
+    private String sSN;
+    protected String accountNumber;
+    private double balance;
+    protected  double rate;
 
     final String countryCode = "LV";
     final String bankCode = "BANK";
     String checkDigits = "00";
-    String bankAccountNumber;
+    private String bankAccountNumber;
     static int index = 10001;
 
 
@@ -30,7 +30,11 @@ public abstract class Account implements IntBaseRate {
 
         index++;
         this.accountNumber = setAccountNumber();
+
+        setRate();
     }
+
+    public abstract void setRate();
 
     private String setAccountNumber(){
         createBankAccount();
@@ -114,11 +118,39 @@ public abstract class Account implements IntBaseRate {
         return resultNum;
     }
 
+    public void compound(){
+        double accruedInterest = balance * (rate/100);
+        balance += accruedInterest;
+        printBalance();
+    }
+
+    public void deposit(double amount){
+        balance += amount;
+        printBalance();
+    }
+
+    public void withdraw(double amount){
+        balance -= amount;
+        printBalance();
+    }
+
+    public void transfer(String toWhere, double amount){
+        balance -= amount;
+        System.out.println("Transferring " + amount + " EUR to " + toWhere);
+        printBalance();
+
+    }
+
+    public void printBalance(){
+        System.out.println("Balance: " + balance + " EUR");
+    }
+
     public void showInfo(){
         System.out.println(
                 "Name: " + name +
                 "\nAccount number: " + accountNumber +
-                "\nBalance: " + balance
+                "\nBalance: " + balance + "EUR" +
+                "\nRate: " + rate + "%"
         );
     }
 

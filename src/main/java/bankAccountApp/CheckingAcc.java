@@ -7,13 +7,18 @@ import org.apache.commons.lang3.StringUtils;
  */
 public class CheckingAcc extends Account {
 
-    String debitCardNumber;
-    int debitCardPIN;
+    private String debitCardNumber;
+    private int debitCardPIN;
 
 
     public CheckingAcc(String name, String sSN, double initDeposit){
         super(name, sSN, initDeposit);
         setDebitCard();
+    }
+
+    @Override
+    public void setRate() {
+        rate = getBaseRate() - 0.25;
     }
 
     public void setDebitCard(){

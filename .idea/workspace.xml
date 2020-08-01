@@ -2,18 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce5cdd62-c618-40df-a63f-f0c26d4979a9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utilities/CSV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/NewBankAccounts.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/bankAccountApp/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bankAccountApp/Account.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/bankAccountApp/BankAccountApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bankAccountApp/BankAccountApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/bankAccountApp/CheckingAcc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bankAccountApp/CheckingAcc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bankAccountApp/IntRate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bankAccountApp/IntBaseRate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/bankAccountApp/SavingAcc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bankAccountApp/SavingAcc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/EightQueenTask/EightQueenTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/EightQueenTask/EightQueenTask.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/bankAccountApp/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bankAccountApp/Account.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/bankAccountApp/BankAccountApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bankAccountApp/BankAccountApp.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/bankAccountApp/CheckingAcc.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bankAccountApp/CheckingAcc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bankAccountApp/IntRate.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/bankAccountApp/SavingAcc.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bankAccountApp/SavingAcc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/emailApp/Email.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/emailApp/Email.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/emailApp/EmailApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/emailApp/EmailApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/studentdbapp/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/studentdbapp/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/studentdbapp/StudentDBApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/studentdbapp/StudentDBApp.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,10 +34,12 @@
       <file leaf-file-name="Account.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/bankAccountApp/Account.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="838">
-              <caret line="54" column="9" selection-start-line="50" selection-start-column="8" selection-end-line="54" selection-end-column="9" />
+            <state relative-caret-position="-352">
+              <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#4189#4190#0" expanded="true" />
+                <element signature="e#4225#4226#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -42,7 +49,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/bankAccountApp/IntBaseRate.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+              <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
               <folding>
                 <element signature="e#125#126#0" expanded="true" />
                 <element signature="e#149#150#0" expanded="true" />
@@ -54,17 +61,34 @@
       <file leaf-file-name="BankAccountApp.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/bankAccountApp/BankAccountApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+            <state relative-caret-position="141">
+              <caret line="34" column="37" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#245#254#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SavingAcc.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="NewBankAccounts.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/NewBankAccounts.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SavingAcc.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/bankAccountApp/SavingAcc.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+            <state relative-caret-position="136">
+              <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+              <folding>
+                <element signature="e#345#346#0" expanded="true" />
+                <element signature="e#385#386#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -72,13 +96,37 @@
       <file leaf-file-name="CheckingAcc.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/bankAccountApp/CheckingAcc.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="59" selection-start-line="28" selection-start-column="59" selection-end-line="28" selection-end-column="59" />
+            <state relative-caret-position="170">
+              <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+              <folding>
+                <element signature="e#390#391#0" expanded="true" />
+                <element signature="e#432#433#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CSV.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/utilities/CSV.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#221#231#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -88,12 +136,13 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/EightQueenTask/EightQueenTask.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/bankAccountApp/BankAccountApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bankAccountApp/IntRate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bankAccountApp/IntBaseRate.java" />
         <option value="$PROJECT_DIR$/src/main/java/bankAccountApp/Account.java" />
         <option value="$PROJECT_DIR$/src/main/java/bankAccountApp/SavingAcc.java" />
         <option value="$PROJECT_DIR$/src/main/java/bankAccountApp/CheckingAcc.java" />
-        <option value="$PROJECT_DIR$/src/main/java/bankAccountApp/IntRate.java" />
-        <option value="$PROJECT_DIR$/src/main/java/bankAccountApp/IntBaseRate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/utilities/CSV.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bankAccountApp/BankAccountApp.java" />
       </list>
     </option>
   </component>
@@ -146,7 +195,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="bankAccountApp" type="462c0819:PsiDirectoryNode" />
+              <item name="utilities" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SmallApps" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SmallApps" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -166,6 +222,7 @@
       <recent name="EightQueenTask" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\dark1\IdeaProjects\SmallApps\src\main\resources" />
       <recent name="C:\Users\dark1\IdeaProjects\SmallApps\src\main\java" />
     </key>
   </component>
@@ -305,7 +362,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595794574283</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added account specific features">
+      <created>1596267327167</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1596267327167</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -320,11 +384,11 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32976827" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32976827" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32976827" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19109312" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19109312" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -344,7 +408,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Brief IBAN logic implementation with CheckDigits creation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Brief IBAN logic implementation with CheckDigits creation" />
+    <MESSAGE value="added account specific features" />
+    <option name="LAST_COMMIT_MESSAGE" value="added account specific features" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -358,6 +423,8 @@
           <caret line="35" column="56" selection-start-line="35" selection-start-column="56" selection-end-line="35" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#4189#4190#0" expanded="true" />
+            <element signature="e#4225#4226#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -366,6 +433,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#245#254#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -373,6 +444,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+          <folding>
+            <element signature="e#345#346#0" expanded="true" />
+            <element signature="e#385#386#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -380,6 +455,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+          <folding>
+            <element signature="e#390#391#0" expanded="true" />
+            <element signature="e#432#433#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -411,34 +490,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bankAccountApp/BankAccountApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/bankAccountApp/CheckingAcc.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="59" selection-start-line="28" selection-start-column="59" selection-end-line="28" selection-end-column="59" />
+        <state relative-caret-position="170">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+          <folding>
+            <element signature="e#390#391#0" expanded="true" />
+            <element signature="e#432#433#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/bankAccountApp/Account.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="838">
-          <caret line="54" column="9" selection-start-line="50" selection-start-column="8" selection-end-line="54" selection-end-column="9" />
+        <state relative-caret-position="-352">
+          <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#4189#4190#0" expanded="true" />
+            <element signature="e#4225#4226#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bankAccountApp/BankAccountApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="34" column="37" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#245#254#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/NewBankAccounts.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/bankAccountApp/IntBaseRate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
           <folding>
             <element signature="e#125#126#0" expanded="true" />
             <element signature="e#149#150#0" expanded="true" />
@@ -448,17 +544,104 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/bankAccountApp/SavingAcc.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+        <state relative-caret-position="136">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+          <folding>
+            <element signature="e#345#346#0" expanded="true" />
+            <element signature="e#385#386#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utilities/CSV.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#221#231#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>SmallApps</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: org.apache.commons:commons-lang3:3.9</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
